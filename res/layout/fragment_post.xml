@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.group1SEUTA.textbookexchange.PostActivity" >
+
+    
+<LinearLayout
+   android:orientation="vertical" 
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content">   
+<EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+    
+    
+    <EditText
+        android:id="@+id/editTextAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author"
+        android:inputType="text" >
+
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextEdition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edition"
+        android:inputType="number" >
+
+       
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextISBN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/isbn"
+        android:inputType="number" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course"
+        android:inputType="text" >
+
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextProfessor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/professor"
+        android:inputType="text" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/askingPrice"
+        android:inputType="numberDecimal" />
+    
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonPostAddPhoto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addPhoto" />
+
+    <Button
+        android:id="@+id/submitPost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submitPost" />
+    
+    <Button
+        android:id="@+id/deletePost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/deletePost" />
+    
+    <com.parse.ParseImageView
+        android:id="@+id/post_preview_image"
+        android:layout_gravity ="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+    
+    
+</LinearLayout>   
+    
+
+</ScrollView>

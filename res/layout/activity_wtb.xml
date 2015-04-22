@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <EditText
+        android:id="@+id/editTextWTBTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+    
+    
+    <EditText
+        android:id="@+id/editTextWTBAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author"
+        android:inputType="text" >
+
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextWTBEdition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edition"
+        android:inputType="number" >
+
+       
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextWTBISBN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/isbn"
+        android:inputType="number" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextWTBSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course"
+        android:inputType="text" >
+
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextWTBProfessor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/professor"
+        android:inputType="text" >
+
+        
+    </EditText>
+    
+    <Button
+        android:id="@+id/submitWTB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addWTB" />
+    
+    <Button
+        android:id="@+id/deleteWTB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteWTB" />
+    
+</LinearLayout>

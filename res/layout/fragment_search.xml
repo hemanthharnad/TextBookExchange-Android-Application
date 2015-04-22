@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id = "@+id/searchFragment">
+
+    <EditText
+        android:id="@+id/editTextSearchTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/titleSearch"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextSearchAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/authorSearch"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextSearchEdition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/editionSearch"
+        android:inputType="number"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextSearchISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/isbn"
+        android:inputType="number"
+        android:ems="10" >
+    </EditText>
+    
+    <Button
+        android:id="@+id/buttonSearchTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchABook" />
+    
+    <EditText
+        android:id="@+id/editTextSearchCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/course"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextSearchProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/professor"
+        android:ems="10" >
+    </EditText>
+    
+    <Button
+        android:id="@+id/buttonSearchCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchACourse" />
+    
+    
+
+    
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonGoToPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:text="@string/postABook" />
+    
+    <Button
+        android:id="@+id/buttonGoToSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:text="@string/searchForABook" />
+    
+    <Button
+        android:id="@+id/buttonGoToViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:text="@string/viewPosts" />
+    
+    <Button
+        android:id="@+id/buttonWTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:text="@string/addWTB" />
+    
+    <Button
+        android:id="@+id/buttonViewWTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:text="@string/viewWTB" />
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:text="@string/logOut" />
+    
+    
+
+</LinearLayout>
